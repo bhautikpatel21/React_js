@@ -1,12 +1,12 @@
 import React from 'react'
-import comC from './comC'
+import ComC from './ComC'
 
-const comB = () => {
+const ComB = () => {
   return (
     <div>
-      <comC/>
+      <ComC/>
     </div>
   )
 }
 
-export default comB
+export default ComB

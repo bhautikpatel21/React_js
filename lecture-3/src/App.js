@@ -1,11 +1,14 @@
 import './App.css';
-import comA from './component/comA';
+import img from "./assets/Tailwind_logo.png"
+// import ComA from './component/ComA';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to web browser</h1>
-      <comA/>
+    <div>
+    <header className='w-full h-44 bg-gray-300 flex'>
+    <img className='rounded-full' src={img} alt="not found" />
+    <h1 className='bg-'></h1>
+    </header>
     </div>
   );
 }

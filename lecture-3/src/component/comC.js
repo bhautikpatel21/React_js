@@ -1,6 +1,6 @@
 import React from 'react'
 
-const comC = () => {
+const ComC = () => {
   return (
     <div>
       <h1>This is a comC.js</h1>
@@ -8,4 +8,4 @@ const comC = () => {
   )
 }
 
-export default comC
+export default ComC
