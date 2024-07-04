@@ -30,6 +30,6 @@ function App() {
     <hr />
     </div>
   );
-}
+} 
 
 export default App;
