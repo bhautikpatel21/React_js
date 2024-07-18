@@ -4,7 +4,7 @@ import logo from "../assets/google.webp"
 const header = () => {
   return (
     <div>
-   <header className='w-full h-[120px] flex border border-4'>
+   <header className='w-full h-[120px] flex border-4'>
 
    <div className='w-[40%] flex items-center p-8'>
    <img className='w-24 h-24 rounded-full border' src={logo} alt="not found." />
