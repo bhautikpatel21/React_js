@@ -11,7 +11,7 @@ import item9 from '../assets/samsung2_c.jfif'
 import item10 from '../assets/samsung3_c.jfif'
 import { useState , useEffect } from 'react'
 
-const list_rendaring = () => {
+const List_rendaring = () => {
 
     const [productData, setProductData] = useState([]);
 
@@ -129,7 +129,7 @@ const list_rendaring = () => {
             <div className="w-[300px] rounded-md border" key={product.id}>
               <img
                 src={product.img}
-                alt="Laptop"
+                alt="not found"
                 className="h-[200px] w-full rounded-t-md object-cover"
               />
               <div className="p-4">
@@ -167,4 +167,4 @@ const list_rendaring = () => {
   )
 }
 
-export default list_rendaring
+export default List_rendaring
