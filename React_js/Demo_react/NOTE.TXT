@@ -1,0 +1,20 @@
+1. Component1  -> How to create component 
+- You want to create component first you create component & export 
+- import in App.jsx After use it 
+
+2. Component2  & Component3 -> How export and import component 
+- You create component in Component 2 & import Component3 after import in App.jsx 
+- You can export component2 to direct App.jsx 
+
+3. ImgComp -> How to use image in react 
+- first you save image in assent after import in your file 
+- img always decaler {img} (curly breaket)
+
+4. Variable -> How to decaler varable in react js 
+- always decalre Variable top on function 
+- use semicolam of last in Variable
+- This type use Variable {varable Name}
+
+5. Function - function's first letter always do capital
+
+6. array -> How to decalare array & use array
