@@ -25,6 +25,6 @@ const Conditional = () => {
       </ul>
     </div>
   )
-}
+} 
 
 export default Conditional

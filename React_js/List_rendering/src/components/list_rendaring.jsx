@@ -10,6 +10,7 @@ import item8 from '../assets/samsung_c.jfif'
 import item9 from '../assets/samsung2_c.jfif'
 import item10 from '../assets/samsung3_c.jfif'
 import { useState , useEffect } from 'react'
+import { useState } from 'react'
 
 const List_rendaring = () => {
 
