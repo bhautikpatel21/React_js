@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ImgComp from './components/ImgComp'
 import React from 'react'
 import Component1 from './components/Component1'
@@ -5,6 +6,8 @@ import Variable from './components/Variable'
 import Array from './components/Array'
 import Props from './components/Props'
 import Onclick from './components/Onclick'
+import TypesExample from './components/Bootstrap';
+import UseState from './components/UseState';
 
 function App() {
   return (
@@ -17,6 +20,8 @@ function App() {
     <Array/>
     <Props name = {" This is Props "}/>
     <Onclick/> 
+    <TypesExample/>
+    <UseState/>
     </div> 
     </>
   )

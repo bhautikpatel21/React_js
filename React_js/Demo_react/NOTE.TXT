@@ -22,3 +22,11 @@
 7. Props -> How to use props 
 
 8. Onclick -> How to perform on Click event
+
+9. Bootstrap -> How to add Bootstrap 
+- in Terminal 
+- cd folder name 
+- npm install react-bootstrap bootstrap
+- import {} from 'react-bootstrap/Button';  - include in file 
+- after add any component
+- class = "container" this is class in bootstap, this class do content in center.

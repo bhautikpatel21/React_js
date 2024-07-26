@@ -8,10 +8,13 @@ const Array = () => {
     
   return (
     <>
+
+    <h1>Indian cricketer </h1>
+
     {arr.map((value,index,arr) => {
       return(
         <>
-          <h1>Indian cricketer = {value}</h1>
+         {value + " "} <br/>
         </>
       )
     })}
