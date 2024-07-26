@@ -17,4 +17,8 @@
 
 5. Function - function's first letter always do capital
 
-6. array -> How to decalare array & use array
+6. Array -> How to decalare array & use array
+
+7. Props -> How to use props 
+
+8. Onclick -> How to perform on Click event

@@ -3,6 +3,8 @@ import React from 'react'
 import Component1 from './components/Component1'
 import Variable from './components/Variable'
 import Array from './components/Array'
+import Props from './components/Props'
+import Onclick from './components/Onclick'
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
     <Component1/>
     <Variable/>
     <Array/>
-    </div>
+    <Props name = {" This is Props "}/>
+    <Onclick/> 
+    </div> 
     </>
   )
 }
