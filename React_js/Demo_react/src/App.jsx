@@ -8,6 +8,7 @@ import Props from './components/Props'
 import Onclick from './components/Onclick'
 import TypesExample from './components/Bootstrap';
 import UseState from './components/UseState';
+import ListRendering from './components/ListRendering';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
     <Onclick/> 
     <TypesExample/>
     <UseState/>
+    <ListRendering/>
     </div> 
     </>
   )
