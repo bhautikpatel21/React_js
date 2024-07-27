@@ -34,3 +34,8 @@
 10. useEffect -> What is use for useEffect
 -  By using this Hook, you tell React that your component needs to do something after render. React will remember the function you passed 
 (we'll refer to it as our “effect”), and call it later after performing the DOM updates.
+
+11. router -> What is react router DOM
+- install 
+- npm i react-router-dom
+- import {BrowserRouter ,Routes , Route, Switch, Link } from 'react-router-dom'
