@@ -5,9 +5,17 @@ const UseState = () => {
 
     const [text, setText] = useState("This is text");
 
-    const handleUpCase = (event) => {
+    const handleUpCase = () => {
         console.log("Clicked");
-        setText("After clicked text")
+        // setText("After clicked text")
+
+        if (text === "This is text") 
+        {
+          setText("After Clicked text");
+        }
+        else {
+          setText("This is text")
+        }
     }
 
   return (
