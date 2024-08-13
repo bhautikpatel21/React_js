@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "redux": "^5.0.1",
+    "redux-logger": "^3.0.6"
+  }
+}
