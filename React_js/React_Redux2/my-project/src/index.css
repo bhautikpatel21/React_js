@@ -1,0 +1,18 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .heading{
+    @apply text-center py-4 bg-purple-700 text-4xl font-semibold text-white
+  }
+  .btn{
+    @apply px-12 py-2 text-white bg-blue-900 text-2xl hover:bg-purple-900 hover:text-white font-bold
+  }
+}
+
+/* .heading{
+  border:10px dotted green;
+} */

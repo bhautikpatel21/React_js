@@ -1,0 +1,29 @@
+@media(max-width : 1200px) {
+    #toggle {
+        display : none;
+    }
+    #icon1 {
+        display : none; 
+    }
+    #toggelmenuTop {
+        visibility: visible;
+    }
+
+}
+
+@media(min-width : 1201px) {
+    #toggelHiden {
+        display : none;
+    }
+    #toggelmenuTop {
+        display : none;
+    }
+}
+
+.Dankhara {
+    background: linear-gradient(to right, #fc743a, #ffffff, #09ac03);
+
+  }
+
+
+
