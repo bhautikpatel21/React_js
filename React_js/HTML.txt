@@ -1,0 +1,32 @@
+1. What is HTML ? 
+-> HTML, or HyperText Markup Language, is the standard language used to create and design web pages. It provides the basic structure for documents and web content by using a system of tags and attributes to define elements. Here’s a breakdown of HTML and its key features:
+
+2. What are HTML elements?
+-> TML elements are the building blocks of HTML documents, used to structure and present content on the web. They define various parts of a web page and their behavior. Each HTML element typically consists of:
+
+1-Opening Tag: Marks the start of an element. Enclosed in angle brackets, it often looks like <tagname>. For example, <h1> for a top-level heading.
+
+2-Content: The text, images, or other data enclosed by the element. This is what the element displays on the web page. For example, "Welcome to My Website" is the content inside an <h1> element.
+
+3-Closing Tag: Marks the end of the element. Similar to the opening tag but with a forward slash before the element name. For example, </h1> closes the top-level heading.
+
+3. What are HTML attributes?
+-> All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+
+4. What are the different types of lists in HTML?
+-> HTML lists come in three main categories: unordered lists, ordered lists, and definition lists. Each type serves a specific purpose and can be customized to fit your design and content needs
+
+5. How do you create a hyperlink in HTML?
+-> To create a hyperlink in HTML, you can use the <a> and </a> tags to define the link. The <a> tag indicates the start of the hyperlink and the </a> tag indicates the end. Any text within these tags will act as the hyperlink. You can also add the link's URL in the <a href=” ”>.
+
+6. What is the difference between an ordered list and an unordered list?
+-> Answer. An unordered list ( <ul> ) is used to create a list of items in no particular order i.e. the order of items is not relevant. By default, the items in this list will be marked with bullets. Whereas, an ordered list ( <ol> ) is used to create a list of items in a specific order.
+
+7.What is the purpose of the alt attribute in an <img> tag?
+-> The required alt attribute specifies an alternate text for an image, if the image cannot be displayed. The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).
+
+8.How do you create a table in HTML?
+-> Definition and Usage. The <table> tag defines an HTML table. An HTML table consists of one <table> element and one or more <tr>, <th>, and <td> elements. The <tr> element defines a table row, the <th> element defines a table header, and the <td> element defines a table cell.
