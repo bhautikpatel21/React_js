@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  
+
+
+  /* animation 
+  @-webkit-keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  
+  .animate-roll-in-left {
+    -webkit-animation: roll-in-left 1s ease-out both;
+            animation: roll-in-left 1s ease-out both;
+  } */
+
+
+
+
+
+  .animated-button {
+    background-color: yellow;
+    color: black;
+    font-size: 16px;
+    padding: 5px ;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px 0 #006699;
+    width: 80px;
+    animation: example 1s infinite;
+  }
+  
+  @keyframes example {
+    /* 0% {background-color: #008CBA;}
+    50% {background-color: #006699;}
+    100% {background-color: #ff0000;} */
+  }
+
+  .animated-button2 {
+    background-color: yellow;
+    color: black;
+    font-size: 16px;
+    padding: 5px ;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px 0 ;
+    width: 80px;
+    animation: example 1s infinite;
+  }
+  
+  /* @keyframes example {
+    0% {background-color: #ff0000;}
+    50% {background-color: #008CBA;}
+    100% {background-color: #006699;}
+  } */
+
+
+
+
+
+
+
+
+
+  
+
+  

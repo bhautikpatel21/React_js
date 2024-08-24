@@ -1,0 +1,54 @@
+{
+  "usersJsonData": [
+    {
+      "id": 1,
+      "firstName": "Karn",
+      "lastName": "Yong",
+      "email": "karn.yong@mecallapi.com",
+      "Image": "https://i.pravatar.cc/150?u=1",
+      "Gender": "Female",
+      "age": 25,
+      "location": "America"
+    },
+    {
+      "id": 2,
+      "firstName": "Ivy",
+      "lastName": "Cal",
+      "email": "ivy.cal@mecallapi.com",
+      "Image": "https://i.pravatar.cc/150?u=2",
+      "Gender": "Male",
+      "age": 25,
+      "location": "America"
+    },
+    {
+      "id": 3,
+      "firstName": "Walter",
+      "lastName": "Beau",
+      "email": "walter.beau@mecallapi.com",
+      "Image": "https://i.pravatar.cc/150?u=3",
+      "Gender": "Female",
+      "age": 25,
+      "location": "America"
+    },
+    {
+      "id": 4,
+      "firstName": "Gayla",
+      "lastName": "Bertrand",
+      "email": "gayla.bertrand@mecallapi.com",
+      "Image": "https://i.pravatar.cc/150?u=4",
+      "Gender": "Female",
+      "age": 25,
+      "location": "America"
+    },
+    {
+      "id": 5,
+      "firstName": "Benjamin",
+      "lastName": "Chaz",
+      "email": "benjamin.chaz@mecallapi.com",
+      "Image": "https://i.pravatar.cc/150?u=5",
+      "Gender": "Male",
+      "age": 25,
+      "location": "America"
+    }
+  ]
+}
