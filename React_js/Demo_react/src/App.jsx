@@ -33,11 +33,14 @@
 
 import React from 'react'
 import Layout from './components/Layout'
+import Formik from './components/Formik'
 
 function App() {
   return (
     <div>
-      <Layout/>
+      {/* <Layout/> */}
+      <Formik/>
+
     </div>
   )
 }
