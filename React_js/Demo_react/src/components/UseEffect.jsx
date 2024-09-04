@@ -1,10 +1,13 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 
-const UseState = () => {
+const UseEffect = () => {
 
     const [count,setCount] = useState(0);
 
+    useEffect(() => {
+        alert("You are clicked")
+    })
 
     return (
          
@@ -17,4 +20,4 @@ const UseState = () => {
   )
 }
 
-export default UseState
+export default UseEffect

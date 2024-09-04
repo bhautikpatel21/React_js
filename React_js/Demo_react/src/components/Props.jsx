@@ -1,10 +1,11 @@
 import React from 'react'
 
-function Props(props) {
+const Props = (props) => {
   return (
-    <>
-    <p>Hello World{props.name}</p>
-    </>
+    <div>
+      <h1>This is props method</h1>
+      <h1>my name is {props.name}</h1>
+    </div>
   )
 }
 
