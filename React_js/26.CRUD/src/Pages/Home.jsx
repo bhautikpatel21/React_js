@@ -27,21 +27,20 @@ const Home = () => {
   
   return (
     <>
-      <section className="w-full max-w-7xl py-4 " >
+      <section className="w-screen py-4 " >
         <div className="flex flex-col space-y-4  md:flex-row md:items-center md:justify-between md:space-y-0">
           <div>
-            <h2 className="text-lg font-semibold">Students</h2>
-            <p className="mt-1 text-sm text-gray-700">
-              This is a list of all Students. You can add new Students, edit or delete existing
-              ones.
+            <h2 className="font-bold text-4xl">STUDENTS</h2>
+            <p className="mt-1 text-xl text-gray-700">
+             This is list of students
             </p>
           </div>
           <div>
            <Link to="/add"> <button
               type="button"
-              className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+              className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm mr-10 hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
             >
-              Add new Students
+              Add Student
             </button>
             </Link>
           </div>
