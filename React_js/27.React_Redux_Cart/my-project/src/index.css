@@ -7,7 +7,7 @@
     @apply bg-purple-700 text-white ms-4 p-4
   }
   .heading{
-    @apply p-2 bg-purple-500 text-white text-center
+    @apply p-4 bg-yellow-500 text-white text-center
   }
 }
   
