@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <div>
       <h1 className='heading'>This is Home Page</h1>
-      <div className='flex flex-wrap justify-around'>
+      <div className='flex flex-wrap justify-around '>
         {
           product.map((item) => {
             return (
@@ -48,15 +48,15 @@ const Home = () => {
                     <button
                       onClick={() => dispatch(add_cart(item))}
                       type="button"
-                      className="w-1/2 rounded-sm bg-black px-3 py-2 text-[10px] font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                      className="w-1/2 rounded-2xl bg-black px-3 py-2 text-[10px] font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                     >
                       Add To Cart
                     </button>
                     <button
                       onClick={() => dispatch(add_wishlist(item))}
                       type="button"
-                      className="w-1/2 ml-3 flex justify-center items-center bg-blue-500 "
-                    > <FaHeart className='size-7'></FaHeart>
+                      className="w-1/2 ml-3 flex rounded-3xl justify-center items-center bg-black "
+                    > <FaHeart className='size-5 text-white'></FaHeart>
                     </button> 
                     </div>
                   </div>

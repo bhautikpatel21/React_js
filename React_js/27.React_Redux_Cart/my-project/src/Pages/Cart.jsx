@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { remove_cart } from '../redux/reduxCart/CartAction';
+import { remove_cart,empty_cart } from '../redux/reduxCart/CartAction';
 
 const Cart = () => {
     const data1 = useSelector(state => state.cart);
@@ -8,6 +8,7 @@ const Cart = () => {
 
     return (
         <div>
+            <button className='absolute px-6 py-1 mt-2 text-white text-2xl bg-purple-400 rounded-3xl' onClick={() => dispatch(empty_cart())}>EMPTY</button>
             <h1 className='heading'>This is Cart Page 1</h1>
             <div className='flex justify-center items-center text-center'>
                 <table className='table-fixed w-[800px]'>

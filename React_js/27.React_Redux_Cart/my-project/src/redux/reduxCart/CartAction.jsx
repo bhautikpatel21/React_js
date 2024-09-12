@@ -10,7 +10,7 @@ export function add_cart(data){
 export function remove_cart(id) {
     return {
         type: REMOVE_TO_CART,
-        data: id
+        data: {id}
     }
 }
 

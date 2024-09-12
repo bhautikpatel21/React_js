@@ -9,7 +9,8 @@ const CartReducer = (state = [], action) => {
             return state.filter(item => item.id !== action.data);
 
         case EMPTY_CART:
-            return localStorage.clear();
+            console.log("sweduhjnzwrsexbhjn",action)
+            return [];
 
         case CART_TO_WISHLIST:
             return state;

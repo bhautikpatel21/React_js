@@ -4,7 +4,7 @@
 
 @layer components{
   .btn{
-    @apply bg-purple-700 text-white ms-4 p-4
+    @apply bg-purple-700 rounded-3xl text-white ms-4 px-4 py-2
   }
   .heading{
     @apply p-4 bg-yellow-500 text-white text-center
