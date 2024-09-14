@@ -20,6 +20,7 @@
               </div>
               <div className="flex items-center justify-between ml-5">
                 <div className="space-x-12">
+                  <NavLink>Home</NavLink>
                   <NavLink to="/contact" className="page">
                     Contact
                   </NavLink>
@@ -30,6 +31,7 @@
                   <NavLink to="/product" className="product">
                     Product
                   </NavLink>
+                  <NavLink to="/login">Login</NavLink>
                 </div>
               </div>
               <div className="flex items-center space-x-4 mr-1">
