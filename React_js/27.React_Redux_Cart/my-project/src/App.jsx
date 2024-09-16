@@ -6,7 +6,6 @@ const App = () => {
   return (
     <div>
       <Layout />
-      {/* <LoginPage/> */}
     </div>
   );
 };

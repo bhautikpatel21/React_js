@@ -1,6 +1,6 @@
   import React from "react";
   import { NavLink, Outlet } from "react-router-dom";
-  import { FaHeart, FaShoppingCart } from "react-icons/fa";
+  import { FaHeart, FaShoppingCart,FaUser } from "react-icons/fa";
   import { useSelector } from "react-redux";
 
   const Navbar = () => {
@@ -50,6 +50,14 @@
                     {wishItems.length}</span>
                   </NavLink>
                 </div>
+
+
+                <div className="relative">
+                  <NavLink to="/wishlist">
+                    <FaUser className="text-2xl text-gray-950 hover:text-[#ff0000] mr-5" />
+                  </NavLink>
+                </div>
+
               </div>
             </div>
           </div>

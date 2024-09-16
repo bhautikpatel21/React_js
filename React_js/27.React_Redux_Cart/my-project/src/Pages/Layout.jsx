@@ -11,6 +11,7 @@ import AboutUs from "./AboutUs";
 import Error404 from "./Error404";
 import Cart from "./Cart";
 import LoginPage from "./LoginPage";
+import Profile from "./Profile";
 
 const PageRouter = createBrowserRouter([
   {
@@ -64,6 +65,10 @@ const PageRouter = createBrowserRouter([
       {
         path: '/login',
         element: <LoginPage/>
+      },
+      {
+        path: '/profile',
+        element: <Profile/>
       }
     ],
   },
