@@ -8,7 +8,7 @@ import ListRendering from './components/ListRendering'
 function App() {
   return (
     <>
-    {/* <Props name="Bhautik bhi Dudhat"/> */}
+    {/* <Props name="Bhautik bhai Dudhat"/> */}
     {/* <UseState/> */}
     {/* <UseEffect/> */}
     {/* <ConditionalReandering/> */}
